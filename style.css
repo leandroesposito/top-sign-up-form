@@ -24,7 +24,7 @@ body {
     background-image: url("imgs/background.jpg");
     background-size: cover;
     position: relative;
-    flex-basis: 30%;
+    flex: 0 0 30%
 }
 
 .left-panel,
