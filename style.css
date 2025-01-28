@@ -1,4 +1,59 @@
+:root {
+    --color-white: white;
+    --color-background-transparent: rgb(0 0 0 / .5);
+}
+
 body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.body {
     min-height: 100vh;
-    background-color: magenta;
+    display: flex;
+}
+
+.left-panel {
+    background-image: url("imgs/background.jpg");
+    background-size: cover;
+    position: relative;
+    flex-basis: 30%;
+}
+
+.left-panel,
+.left-panel a {
+    color: var(--color-white);
+}
+
+.title-container {
+    --title-heigth: clamp(1rem, 4vw + 1rem, 8rem);
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: var(--color-background-transparent);
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    box-sizing: border-box;
+    top: 15%;
+}
+
+.logo>img {
+    height: var(--title-heigth);
+}
+
+.title {
+    font-size: var(--title-heigth);
+    margin-left: 1rem;
+}
+
+.credits {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--color-background-transparent);
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
 }
