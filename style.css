@@ -66,3 +66,50 @@ body {
     box-sizing: border-box;
     text-align: center;
 }
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-white);
+}
+
+.right-panel>div,
+.right-panel>form>div {
+    padding: 0rem 3rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.data-entry {
+    background-color: white;
+    box-shadow: 0 2px 5px 1px rgb(199, 199, 199);
+}
+
+form h1 {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+form h1,
+form label {
+    color: var(--color-grey-font);
+}
+
+form label {
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.form-row {
+    display: flex
+}
+
+form label {
+    display: block;
+}
