@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Norse;
+    src: url("fonts/norse-bold-webfont.woff") format("woff"),
+        url("fonts/norse-bold-webfont.woff2") format("woff2");
+}
+
 :root {
     --color-white: white;
     --color-background-transparent: rgb(0 0 0 / .5);
@@ -45,6 +51,7 @@ body {
 
 .title {
     font-size: var(--title-heigth);
+    font-family: Norse, Arial, Helvetica, sans-serif;
     margin-left: 1rem;
 }
 
