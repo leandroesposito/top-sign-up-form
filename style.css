@@ -5,8 +5,9 @@
 }
 
 :root {
-    --color-white: white;
+    --color-white: #F9FAFB;
     --color-background-transparent: rgb(0 0 0 / .5);
+    --color-grey-font: #1F2937;
 }
 
 body {
