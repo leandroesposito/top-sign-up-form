@@ -107,9 +107,26 @@ form label {
 }
 
 .form-row {
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-item {
+    flex: 0 1 30ch;
 }
 
 form label {
     display: block;
+}
+
+.form-row {
+    margin: 1rem 0;
+}
+
+.form-row:last-child {
+    padding-bottom: 2rem;
+}
+
+form input {
+    width: 30ch;
 }
