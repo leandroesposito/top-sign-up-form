@@ -12,6 +12,7 @@
     --color-focus: rgb(29, 78, 216);
     --color-invalid: rgb(189, 42, 42);
     --color-image: #7BA9CE;
+    --color-image-darker: #668dad;
 }
 
 body {
@@ -159,6 +160,10 @@ form button {
     padding: .7rem 3rem;
     box-shadow: 2px 2px 5px rgb(0 0 0 / .5);
     margin: 2rem 0;
+}
+
+form button:active {
+    background-color: var(--color-image-darker);
 }
 
 .right-panel a {
