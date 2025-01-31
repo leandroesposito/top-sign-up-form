@@ -23,7 +23,7 @@ body {
 
 
 .body {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
 }
 
@@ -31,7 +31,7 @@ body {
     background-image: url("imgs/background.jpg");
     background-size: cover;
     position: relative;
-    flex: 0 0 30%
+    flex: 0 0 30%;
 }
 
 .left-panel,
@@ -73,15 +73,19 @@ body {
 }
 
 .right-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: var(--color-white);
+    display: flex;
+    overflow-y: auto;
     width: 100%;
 }
 
-.right-panel>div,
-.right-panel>form>div {
+.right-panel-content {
+    width: 100%;
+    margin: auto;
+}
+
+.right-panel-content>div,
+.right-panel form>div {
     padding: 0rem 3rem;
 }
 
