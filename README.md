@@ -20,9 +20,9 @@ Preview: [https://leandroesposito.github.io/top-sign-up-form/](https://leandroes
 
 ## Screenshots
 
-| Desktop View | Mobile View |
-|--------------|--------------|
-| <img src="https://github.com/leandroesposito/top-sign-up-form/blob/main/screenshots/desktop_view.png" height="700" alt="Desktop"> | <img src="https://github.com/leandroesposito/top-sign-up-form/blob/main/screenshots/movile_view.png" height="700" alt="Movile"> |
+| Desktop View                                                                                                                      | Mobile View                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/leandroesposito/top-sign-up-form/blob/main/screenshots/desktop_view.png" height="700" alt="Desktop"> | <img src="https://github.com/leandroesposito/top-sign-up-form/blob/main/screenshots/mobile_view.png" height="700" alt="Mobile"> |
 
 ## Project Structure
 
@@ -41,6 +41,7 @@ sign-up-form/
 ## Form Fields
 
 The form includes the following fields:
+
 - First Name (text)
 - Last Name (text)
 - Email (email format)
@@ -49,6 +50,7 @@ The form includes the following fields:
 - Confirm Password
 
 ### Password Requirements
+
 - Minimum 8 characters
 - Maximum 20 characters
 - At least one uppercase letter
@@ -57,29 +59,34 @@ The form includes the following fields:
 
 ## Color Scheme
 
-| Variable | Color | Usage |
-|----------|-------|-------|
-| `--color-white` | #F9FAFB | Right panel background |
-| `--color-background-transparent` | rgba(0,0,0,0.5) | Overlay backgrounds |
-| `--color-grey-font` | #1F2937 | Form text |
-| `--color-light-border` | #E5E7EB | Input borders |
-| `--color-focus` | rgb(29, 78, 216) | Input focus state |
-| `--color-invalid` | rgb(189, 42, 42) | Invalid input state |
-| `--color-image` | #7BA9CE | Button and link color |
+| Variable                         | Color            | Usage                  |
+| -------------------------------- | ---------------- | ---------------------- |
+| `--color-white`                  | #F9FAFB          | Right panel background |
+| `--color-background-transparent` | rgba(0,0,0,0.5)  | Overlay backgrounds    |
+| `--color-grey-font`              | #1F2937          | Form text              |
+| `--color-light-border`           | #E5E7EB          | Input borders          |
+| `--color-focus`                  | rgb(29, 78, 216) | Input focus state      |
+| `--color-invalid`                | rgb(189, 42, 42) | Invalid input state    |
+| `--color-image`                  | #7BA9CE          | Button and link color  |
 
 ## Customization
 
 ### Changing the Background Image
+
 Replace `imgs/background.jpg` with your own image (recommended size: at least 1200x800px).
 
 ### Modifying Form Validation
+
 Update the `pattern` attribute in the password input fields:
+
 ```html
 pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,20}"
 ```
 
 ### Adjusting Layout
+
 Modify the CSS variables or Flexbox properties in `style.css`:
+
 - `--title-heigth` - Controls logo and title size
 - `.left-panel` flex basis - Controls left panel width
 
